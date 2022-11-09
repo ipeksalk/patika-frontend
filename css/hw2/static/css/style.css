@@ -1,0 +1,58 @@
+body {
+  display: block;
+  margin: 5%;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+#search {
+  background-color: #EEEEEE;
+  margin-bottom: 3px;
+}
+
+#search input {
+  width: 40%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container div {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+#left {
+  width: 37%;
+  background-color: #7EE5DA;
+  padding: 5px 0;
+}
+
+#middle {
+  width: 20%;
+  background-color: #70CCC2;
+  font-size: small;
+  padding: 5px 0;
+}
+
+#right {
+  width: 42%;
+  background-color: #62B3AA;
+  font-size: small;
+}
+
+footer { 
+  font-size: small;
+}
+
+footer p {
+  margin-top: 13px;
+}
